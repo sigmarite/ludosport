@@ -1,0 +1,56 @@
+{
+  "name": "streaming-companion",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/streaming-companion/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/apps/streaming-companion",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "apps/streaming-companion/src/main.ts",
+        "tsConfig": "apps/streaming-companion/tsconfig.app.json",
+        "assets": ["apps/streaming-companion/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "streaming-companion:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "streaming-companion:build:development"
+        },
+        "production": {
+          "buildTarget": "streaming-companion:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
