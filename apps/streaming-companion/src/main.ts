@@ -1,8 +1,7 @@
 import {JWT} from 'google-auth-library'
 import {GoogleSpreadsheet} from 'google-spreadsheet';
-
-import credentials from 'apps/streaming-companion/src/keys/ludosport-414716-a04f1ec6d74b.json';
 import {GoogleAPIScopes} from './auth/scopes';
+import {credentials} from './keys/ludosport-414716-a04f1ec6d74b';
 
 const spreadsheetId = '1WSziZtu7A-dnMk8gLMVhg3k3PGB9aZTsdE2vJLe6rIc';
 
