@@ -8,6 +8,10 @@
 To start the development server run `nx serve streaming-companion`.
 
 
+## Keeping track of work
+
+Here you can find what we should do: [link to Trello](https://trello.com/b/5yql5Uql/ludosport);
+
 ## Running tasks
 
 To execute tasks with Nx use the following syntax:
