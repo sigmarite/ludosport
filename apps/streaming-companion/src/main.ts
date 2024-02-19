@@ -1,30 +1,13 @@
-import {JWT} from 'google-auth-library'
-import {GoogleSpreadsheet} from 'google-spreadsheet';
-import {GoogleAPIScopes} from './auth/scopes';
-import {credentials} from './keys/ludosport-414716-a04f1ec6d74b';
+import {IncomSpreadsheet} from './spreadsheet/incom.spreadsheet';
 
 const spreadsheetId = '1WSziZtu7A-dnMk8gLMVhg3k3PGB9aZTsdE2vJLe6rIc';
 
 async function main() {
-  const SCOPES = [
-    GoogleAPIScopes.Sheets,
-  ];
-
-  const serviceAccountAuth = new JWT({
-    email: credentials.client_email,
-    key: credentials.private_key,
-    scopes: SCOPES,
-  });
-  const doc = new GoogleSpreadsheet(spreadsheetId, serviceAccountAuth);
-
-  await doc.loadInfo(); // loads document properties and worksheets
-
-  console.log('Title of the document', doc.title);
+  const doc = await IncomSpreadsheet.loadFrom(spreadsheetId);
 
   // todo improve logic
-  const sheet = doc.sheetsByTitle['Pools Results'];
+  const sheet = await doc.getPoolResults();
   console.log('Number of rows in Pools Results sheets', sheet.rowCount);
-  await sheet.loadCells('B2:C3'); // loads data
 
   let firstAthlete = sheet.getCell(1, 1).formattedValue;
   let firstAthleteScore = sheet.getCell(1, 2).formattedValue;
