@@ -1,25 +1,27 @@
 import {IncomSpreadsheet} from './spreadsheet/incom.spreadsheet';
 import {schemas} from './schemas';
 import * as fs from 'fs';
+import {exhaustMap, interval} from 'rxjs';
 
-const spreadsheetId = '1WSziZtu7A-dnMk8gLMVhg3k3PGB9aZTsdE2vJLe6rIc';
-
-async function main() {
-  const doc = await IncomSpreadsheet.loadFrom(spreadsheetId);
+async function refreshResults() {
+  console.log('Refreshing results');
+  const doc = await IncomSpreadsheet.loadFrom(schemas.spreadsheetId);
 
   const poolResults = await doc.getPoolResults();
 
   schemas.pools.forEach((pool => {
     const results = poolResults.getMatches(pool.columnIndex);
     const fileData = results.join('\n');
-    console.log(fileData);
     fs.writeFileSync(pool.filename, fileData);
   }))
+  console.log('Results were correctly refreshed!');
 }
 
-main()
-  .then(() => {
-    console.log('Done')
-    return process.exit(0);
-  })
+function main() {
+  interval(3000).pipe(
+    exhaustMap(() => refreshResults())
+  ).subscribe();
+}
+
+main();
 
