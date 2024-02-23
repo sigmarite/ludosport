@@ -1,6 +1,7 @@
 import {GoogleSpreadsheet} from 'google-spreadsheet';
 import {Spreadsheet} from './spreadsheet';
 import {PoolResultsWorksheet} from './pool-results.worksheet';
+import {PoolTablesWorksheet} from './pool-tables.worksheet';
 
 export class IncomSpreadsheet {
 
@@ -20,5 +21,15 @@ export class IncomSpreadsheet {
       startColumnIndex: 0
     })
     return new PoolResultsWorksheet(poolResultsWorksheet);
+  }
+
+  public async getPoolTables(): Promise<PoolTablesWorksheet> {
+    let poolResultsWorksheet = this.spreadsheet.sheetsByTitle['Pools Tables'];
+
+    await poolResultsWorksheet.loadCells({
+      startRowIndex: 0,
+      startColumnIndex: 0
+    })
+    return new PoolTablesWorksheet(poolResultsWorksheet);
   }
 }
