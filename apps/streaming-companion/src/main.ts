@@ -1,6 +1,6 @@
 import {IncomSpreadsheet} from './spreadsheet/incom.spreadsheet';
 import {schemas} from './schemas';
-import * as fs from 'fs';
+import * as fs from 'fs-extra';
 import {exhaustMap, interval} from 'rxjs';
 
 async function refreshResults() {
@@ -10,7 +10,7 @@ async function refreshResults() {
   const poolResults = await doc.getPoolResults();
 
   schemas.pools.forEach((pool => {
-    fs.writeFileSync(pool.filename, poolResults.getMatches(pool.columnIndex));
+    fs.outputFileSync(pool.filename, poolResults.getMatches(pool.columnIndex));
   }))
   console.log('Results were correctly refreshed!');
 }

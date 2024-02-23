@@ -18,7 +18,7 @@ export class PoolResultsWorksheet {
       matches.push(this.formatMatch(firstAthlete, firstAthleteScore, secondAthlete, secondAthleteScore))
     }
 
-    return [poolName, ...matches].join('/n');
+    return [poolName, ...matches].join('\n');
   }
 
   private getPoolName(startingColumnIndex: number): string {
