@@ -6,7 +6,7 @@ export class PoolResultsWorksheet {
   constructor(private readonly worksheet: GoogleSpreadsheetWorksheet) {
   }
 
-  getMatches(startingColumnIndex: number): string[] {
+  getMatches(startingColumnIndex: number): string {
     const poolName = this.getPoolName(startingColumnIndex);
     const matches: string[] = [];
 
@@ -18,7 +18,7 @@ export class PoolResultsWorksheet {
       matches.push(this.formatMatch(firstAthlete, firstAthleteScore, secondAthlete, secondAthleteScore))
     }
 
-    return [poolName, ...matches];
+    return [poolName, ...matches].join('/n');
   }
 
   private getPoolName(startingColumnIndex: number): string {

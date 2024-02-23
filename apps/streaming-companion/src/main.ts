@@ -10,9 +10,7 @@ async function refreshResults() {
   const poolResults = await doc.getPoolResults();
 
   schemas.pools.forEach((pool => {
-    const results = poolResults.getMatches(pool.columnIndex);
-    const fileData = results.join('\n');
-    fs.writeFileSync(pool.filename, fileData);
+    fs.writeFileSync(pool.filename, poolResults.getMatches(pool.columnIndex));
   }))
   console.log('Results were correctly refreshed!');
 }
