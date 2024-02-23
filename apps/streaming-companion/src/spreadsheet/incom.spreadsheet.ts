@@ -1,5 +1,6 @@
-import {GoogleSpreadsheet, GoogleSpreadsheetWorksheet} from 'google-spreadsheet';
+import {GoogleSpreadsheet} from 'google-spreadsheet';
 import {Spreadsheet} from './spreadsheet';
+import {PoolResultsWorksheet} from './pool-results.worksheet';
 
 export class IncomSpreadsheet {
 
@@ -11,13 +12,13 @@ export class IncomSpreadsheet {
     return new IncomSpreadsheet(spreadsheet);
   }
 
-  public async getPoolResults(): Promise<GoogleSpreadsheetWorksheet> {
+  public async getPoolResults(): Promise<PoolResultsWorksheet> {
     let poolResultsWorksheet = this.spreadsheet.sheetsByTitle['Pools Results'];
 
     await poolResultsWorksheet.loadCells({
       startRowIndex: 0,
       startColumnIndex: 0
     })
-    return poolResultsWorksheet
+    return new PoolResultsWorksheet(poolResultsWorksheet);
   }
 }
