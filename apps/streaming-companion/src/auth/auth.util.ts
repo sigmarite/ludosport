@@ -1,6 +1,6 @@
 import {JWT} from 'google-auth-library';
 import {GoogleAPIScopes} from './scopes';
-import {credentials} from '../keys/ludosport-414716-a04f1ec6d74b';
+import {credentials} from '../keys/ludosport-414716-57a26dce2da3';
 
 export class AuthUtil {
 
