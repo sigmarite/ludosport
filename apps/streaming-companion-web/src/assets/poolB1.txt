@@ -1,0 +1,46 @@
+POOL B1
+Fortunata Anselmo   	2 - 1	Dexter Wallis       
+Eufemia Spada       	1 - 2	Casey Henry         
+Giovanna Belluomo   	2 - 1	Gerolamo Alesio     
+Lino Nasato         	1 - 1	Flaviano De Vito    
+Costanzo Aliberti   	2 - 1	Alma Nana           
+Gerolamo Alesio     	1 - 1	Lino Nasato         
+Dexter Wallis       	1 - 1	Alma Nana           
+Flaviano De Vito    	2 - 1	Costanzo Aliberti   
+Casey Henry         	2 - 1	Giovanna Belluomo   
+Fortunata Anselmo   	1 - 1	Eufemia Spada       
+Lino Nasato         	1 - 1	Casey Henry         
+Eufemia Spada       	1 - 2	Dexter Wallis       
+Giovanna Belluomo   	1 - 1	Fortunata Anselmo   
+Costanzo Aliberti   	1 - 1	Gerolamo Alesio     
+Alma Nana           	1 - 1	Flaviano De Vito    
+Casey Henry         	1 - 1	Costanzo Aliberti   
+Dexter Wallis       	1 - 1	Flaviano De Vito    
+Gerolamo Alesio     	1 - 1	Alma Nana           
+Fortunata Anselmo   	1 - 1	Lino Nasato         
+Eufemia Spada       	1 - 1	Giovanna Belluomo   
+Costanzo Aliberti   	1 - 1	Fortunata Anselmo   
+Giovanna Belluomo   	1 - 1	Dexter Wallis       
+Lino Nasato         	1 - 1	Eufemia Spada       
+Alma Nana           	1 - 1	Casey Henry         
+Flaviano De Vito    	1 - 1	Gerolamo Alesio     
+Fortunata Anselmo   	1 - 1	Alma Nana           
+Dexter Wallis       	2 - 1	Gerolamo Alesio     
+Casey Henry         	2 - 1	Flaviano De Vito    
+Eufemia Spada       	1 - 2	Costanzo Aliberti   
+Giovanna Belluomo   	2 - 1	Lino Nasato         
+Alma Nana           	2 - 1	Eufemia Spada       
+Lino Nasato         	1 - 2	Dexter Wallis       
+Costanzo Aliberti   	2 - 1	Giovanna Belluomo   
+Flaviano De Vito    	2 - 1	Fortunata Anselmo   
+Gerolamo Alesio     	1 - 1	Casey Henry         
+Eufemia Spada       	1 - 1	Flaviano De Vito    
+Casey Henry         	0 - 2	Dexter Wallis       
+Fortunata Anselmo   	1 - 2	Gerolamo Alesio     
+Giovanna Belluomo   	1 - 0	Alma Nana           
+Lino Nasato         	1 - 1	Costanzo Aliberti   
+Flaviano De Vito    	2 - 1	Giovanna Belluomo   
+Costanzo Aliberti   	2 - 1	Dexter Wallis       
+Alma Nana           	3 - 0	Lino Nasato         
+Gerolamo Alesio     	2 - 1	Eufemia Spada       
+Casey Henry         	2 - 1	Fortunata Anselmo   

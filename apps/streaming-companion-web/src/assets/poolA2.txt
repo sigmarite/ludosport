@@ -1,0 +1,46 @@
+POOL A2
+Santina Alberghi    	2 - 1	Elpidio Ojeda       
+Orsola Bondesan     	2 - 1	Camilo Esteban      
+Eraldo Righi        	1 - 1	Aurelio Guidi       
+Sabina D'Onofrio    	1 - 2	Rosella Alagona     
+Giosetta Cino       	2 - 1	Fausto Di Napoli    
+Aurelio Guidi       	2 - 1	Sabina D'Onofrio    
+Elpidio Ojeda       	1 - 2	Fausto Di Napoli    
+Rosella Alagona     	2 - 1	Giosetta Cino       
+Camilo Esteban      	2 - 1	Eraldo Righi        
+Santina Alberghi    	1 - 2	Orsola Bondesan     
+Sabina D'Onofrio    	1 - 1	Camilo Esteban      
+Orsola Bondesan     	1 - 2	Elpidio Ojeda       
+Eraldo Righi        	1 - 2	Santina Alberghi    
+Giosetta Cino       	1 - 0	Aurelio Guidi       
+Fausto Di Napoli    	1 - 1	Rosella Alagona     
+Camilo Esteban      	2 - 1	Giosetta Cino       
+Elpidio Ojeda       	2 - 1	Rosella Alagona     
+Aurelio Guidi       	3 - 0	Fausto Di Napoli    
+Santina Alberghi    	2 - 1	Sabina D'Onofrio    
+Orsola Bondesan     	2 - 1	Eraldo Righi        
+Giosetta Cino       	0 - 1	Santina Alberghi    
+Eraldo Righi        	1 - 2	Elpidio Ojeda       
+Sabina D'Onofrio    	2 - 1	Orsola Bondesan     
+Fausto Di Napoli    	1 - 2	Camilo Esteban      
+Rosella Alagona     	2 - 1	Aurelio Guidi       
+Santina Alberghi    	1 - 1	Fausto Di Napoli    
+Elpidio Ojeda       	1 - 1	Aurelio Guidi       
+Camilo Esteban      	1 - 1	Rosella Alagona     
+Orsola Bondesan     	1 - 1	Giosetta Cino       
+Eraldo Righi        	1 - 1	Sabina D'Onofrio    
+Fausto Di Napoli    	1 - 1	Orsola Bondesan     
+Sabina D'Onofrio    	1 - 1	Elpidio Ojeda       
+Giosetta Cino       	1 - 1	Eraldo Righi        
+Rosella Alagona     	1 - 1	Santina Alberghi    
+Aurelio Guidi       	1 - 1	Camilo Esteban      
+Orsola Bondesan     	1 - 1	Rosella Alagona     
+Camilo Esteban      	1 - 1	Elpidio Ojeda       
+Santina Alberghi    	2 - 1	Aurelio Guidi       
+Eraldo Righi        	1 - 1	Fausto Di Napoli    
+Sabina D'Onofrio    	1 - 1	Giosetta Cino       
+Rosella Alagona     	3 - 0	Eraldo Righi        
+Giosetta Cino       	1 - 1	Elpidio Ojeda       
+Fausto Di Napoli    	1 - 1	Sabina D'Onofrio    
+Aurelio Guidi       	1 - 1	Orsola Bondesan     
+Camilo Esteban      	1 - 1	Santina Alberghi    
