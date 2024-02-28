@@ -11,12 +11,15 @@ export class PoolTablesWorksheet {
 
     for (let row = startingRowIndex; row < this.worksheet.rowCount; row++) {
       let athlete = this.worksheet.getCell(row, startingColumnIndex).formattedValue;
-      let score: number = this.worksheet.getCell(row, startingColumnIndex + 1).value as number ?? 0;
+      let score: string = this.worksheet.getCell(row, startingColumnIndex + 1).formattedValue ?? "0";
+      if (score.startsWith('#')) {
+        score = "0";
+      }
       if (!!athlete) {
         ranks.push({athlete, score});
       }
     }
-    ranks.sort((rank1, rank2) => rank2.score - rank1.score);
+    ranks.sort((rank1, rank2) => rank2.score.localeCompare(rank1.score));
 
     return {
       name: poolName,
@@ -31,7 +34,7 @@ export class PoolTablesWorksheet {
 
 interface Rank {
   athlete: string;
-  score: number;
+  score: string;
 }
 
 interface PoolRanks {
