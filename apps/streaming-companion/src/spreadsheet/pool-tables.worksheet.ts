@@ -1,12 +1,11 @@
 import {GoogleSpreadsheetWorksheet} from 'google-spreadsheet';
 
 export class PoolTablesWorksheet {
-  private readonly maxNameLength = 20;
 
   constructor(private readonly worksheet: GoogleSpreadsheetWorksheet) {
   }
 
-  getRanks(startingColumnIndex: number, startingRowIndex: number): string {
+  getRanks(startingColumnIndex: number, startingRowIndex: number): PoolRanks {
     const poolName = this.getPoolName(startingColumnIndex);
     const ranks: Rank[] = []
 
@@ -19,25 +18,23 @@ export class PoolTablesWorksheet {
     }
     ranks.sort((rank1, rank2) => rank2.score - rank1.score);
 
-    return [poolName, ...ranks.map(rank => this.formatRank(rank))].join('\n');
+    return {
+      name: poolName,
+      ranks
+    }
   }
 
   private getPoolName(startingColumnIndex: number): string {
     return this.worksheet.getCell(1, startingColumnIndex).formattedValue;
-  }
-
-  private formatRank(rank: Rank): string {
-    const sanitizedName = this.sanitize(rank.athlete);
-    return `${sanitizedName}\t${rank.score}`;
-  }
-
-
-  private sanitize(athlete: string): string {
-    return athlete.substring(0, this.maxNameLength).padEnd(this.maxNameLength, ' ');
   }
 }
 
 interface Rank {
   athlete: string;
   score: number;
+}
+
+interface PoolRanks {
+  name: string;
+  ranks: Rank[];
 }
