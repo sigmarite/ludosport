@@ -5,12 +5,12 @@ export class PoolResultsWorksheet {
   constructor(private readonly worksheet: GoogleSpreadsheetWorksheet) {
   }
 
-  getMatches(startingColumnIndex: number): PoolMatches {
+  getMatches(startingColumnIndex: number, switchRow: number, endRow: number): PoolMatches {
     const poolName = this.getPoolName(startingColumnIndex);
     const matches: Match[] = [];
 
     // todo find a better way to get the couples and skip the sj switch
-    for (let row = 1; row < 30; row = row + 3) {
+    for (let row = 1; row < switchRow; row = row + 3) {
       let firstAthleteName = this.worksheet.getCell(row, startingColumnIndex).formattedValue;
       let firstAthleteScore = this.worksheet.getCell(row, startingColumnIndex + 1).formattedValue ?? " ";
       let secondAthleteName = this.worksheet.getCell(row + 1, startingColumnIndex).formattedValue;
@@ -23,7 +23,7 @@ export class PoolResultsWorksheet {
       })
     }
 
-    for (let row = 32; row < 64; row = row + 3) {
+    for (let row = switchRow + 1; row < endRow; row = row + 3) {
       let firstAthleteName = this.worksheet.getCell(row, startingColumnIndex).formattedValue;
       let firstAthleteScore = this.worksheet.getCell(row, startingColumnIndex + 1).formattedValue ?? " ";
       let secondAthleteName = this.worksheet.getCell(row + 1, startingColumnIndex).formattedValue;
