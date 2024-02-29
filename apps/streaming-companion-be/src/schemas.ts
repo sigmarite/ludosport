@@ -26,11 +26,11 @@ export const schemas: Schemas = {
     {name: 'poolB3', columnIndex: 46}
   ],
   poolRanks: [
-    {name: 'poolA1', columnIndex: 1, rowIndex: 10},
-    {name: 'poolB1', columnIndex: 10, rowIndex: 10},
-    {name: 'poolA2', columnIndex: 19, rowIndex: 10},
-    {name: 'poolB2', columnIndex: 28, rowIndex: 10},
-    {name: 'poolA3', columnIndex: 37, rowIndex: 10},
-    {name: 'poolB3', columnIndex: 46, rowIndex: 10}
+    {name: 'poolA1', columnIndex: 1, rowIndex: 9},
+    {name: 'poolB1', columnIndex: 10, rowIndex: 9},
+    {name: 'poolA2', columnIndex: 19, rowIndex: 9},
+    {name: 'poolB2', columnIndex: 28, rowIndex: 9},
+    {name: 'poolA3', columnIndex: 37, rowIndex: 9},
+    {name: 'poolB3', columnIndex: 46, rowIndex: 9}
   ]
 }
