@@ -42,6 +42,7 @@ Thumbs.db
 
 # Keys
 /apps/streaming-companion/src/keys/
+/apps/streaming-companion-be/src/keys/
 
 /apps/streaming-companion/outputs
 
