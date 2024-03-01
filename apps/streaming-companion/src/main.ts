@@ -6,7 +6,7 @@ import {exhaustMap, interval} from 'rxjs';
 async function refreshPoolResults(doc: IncomSpreadsheet) {
   const poolResults = await doc.getPoolResults();
   schemas.pools.forEach((pool => {
-    fs.outputFileSync(pool.filename, JSON.stringify(poolResults.getMatches(pool.columnIndex, pool.switchRow, pool.endRow), undefined, 2));
+    fs.outputFileSync(pool.filename, JSON.stringify(poolResults.getMatches(pool.columnIndex), undefined, 2));
   }))
 }
 
