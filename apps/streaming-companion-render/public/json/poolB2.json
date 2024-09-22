@@ -1,0 +1,275 @@
+{
+  "name": "POOL B2",
+  "matches": [
+    {
+      "firstAthleteName": "Nicoletta Marchesi",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Sonja Blecher",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Ippolito Laurito",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Krimhilde Michaelis",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Leonardo Bussolini",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Barnaba Alò",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Letizia Fava",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fabiola Portoghese",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Anselma Sarto",
+      "firstAthleteScore": "3",
+      "secondAthleteName": "Eustorgio Tamaro",
+      "secondAthleteScore": "0"
+    },
+    {
+      "firstAthleteName": "Barnaba Alò",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Letizia Fava",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Sonja Blecher",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Eustorgio Tamaro",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fabiola Portoghese",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Anselma Sarto",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Krimhilde Michaelis",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Leonardo Bussolini",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Nicoletta Marchesi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Ippolito Laurito",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Letizia Fava",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Krimhilde Michaelis",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Ippolito Laurito",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Sonja Blecher",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Leonardo Bussolini",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Nicoletta Marchesi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Anselma Sarto",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Barnaba Alò",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eustorgio Tamaro",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fabiola Portoghese",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Krimhilde Michaelis",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Anselma Sarto",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Sonja Blecher",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fabiola Portoghese",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Barnaba Alò",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Eustorgio Tamaro",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Nicoletta Marchesi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Letizia Fava",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Ippolito Laurito",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Leonardo Bussolini",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Anselma Sarto",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Nicoletta Marchesi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Leonardo Bussolini",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Sonja Blecher",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Letizia Fava",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Ippolito Laurito",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eustorgio Tamaro",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Krimhilde Michaelis",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fabiola Portoghese",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Barnaba Alò",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Nicoletta Marchesi",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Eustorgio Tamaro",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Sonja Blecher",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Barnaba Alò",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Krimhilde Michaelis",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Fabiola Portoghese",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Ippolito Laurito",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Anselma Sarto",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Leonardo Bussolini",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Letizia Fava",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eustorgio Tamaro",
+      "firstAthleteScore": "3",
+      "secondAthleteName": "Ippolito Laurito",
+      "secondAthleteScore": "0"
+    },
+    {
+      "firstAthleteName": "Letizia Fava",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Sonja Blecher",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Anselma Sarto",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Leonardo Bussolini",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fabiola Portoghese",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Nicoletta Marchesi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Barnaba Alò",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Krimhilde Michaelis",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Ippolito Laurito",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fabiola Portoghese",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Krimhilde Michaelis",
+      "firstAthleteScore": "0",
+      "secondAthleteName": "Sonja Blecher",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Nicoletta Marchesi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Barnaba Alò",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Leonardo Bussolini",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Eustorgio Tamaro",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Letizia Fava",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Anselma Sarto",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fabiola Portoghese",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Leonardo Bussolini",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Anselma Sarto",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Sonja Blecher",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eustorgio Tamaro",
+      "firstAthleteScore": "3",
+      "secondAthleteName": "Letizia Fava",
+      "secondAthleteScore": "0"
+    },
+    {
+      "firstAthleteName": "Barnaba Alò",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Ippolito Laurito",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Krimhilde Michaelis",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Nicoletta Marchesi",
+      "secondAthleteScore": "1"
+    }
+  ]
+}

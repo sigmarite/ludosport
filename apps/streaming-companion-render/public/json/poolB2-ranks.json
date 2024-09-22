@@ -1,0 +1,33 @@
+{
+  "name": " POOL B2",
+  "ranks": [
+    {
+      "athlete": "Letizia Fava",
+      "score": "9,5922"
+    },
+    {
+      "athlete": "Ippolito Laurito",
+      "score": "8,5733"
+    },
+    {
+      "athlete": "Sonja Blecher",
+      "score": "14,6100"
+    },
+    {
+      "athlete": "Anselma Sarto",
+      "score": "14,5811"
+    },
+    {
+      "athlete": "Eustorgio Tamaro",
+      "score": "13,6055"
+    },
+    {
+      "athlete": "Fabiola Portoghese",
+      "score": "12,6011"
+    },
+    {
+      "athlete": "Krimhilde Michaelis",
+      "score": "12,5833"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": " POOL A1",
+  "ranks": [
+    {
+      "athlete": "Colombano Ventimiglia",
+      "score": "2,5900"
+    },
+    {
+      "athlete": "Giò Borgnino",
+      "score": "2,5900"
+    },
+    {
+      "athlete": "Domenico Abbandonato",
+      "score": "1,5700"
+    },
+    {
+      "athlete": "Quintino Nicotera",
+      "score": "1,5700"
+    },
+    {
+      "athlete": "Arlette Guillot",
+      "score": "1,5700"
+    },
+    {
+      "athlete": "Gigi Garçon",
+      "score": "0,5900"
+    },
+    {
+      "athlete": "Annachiara Coiro",
+      "score": "0"
+    }
+  ]
+}

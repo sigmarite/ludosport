@@ -1,0 +1,33 @@
+{
+  "name": " POOL B1",
+  "ranks": [
+    {
+      "athlete": "Eufemia Spada",
+      "score": "9,5788"
+    },
+    {
+      "athlete": "Lino Nasato",
+      "score": "8,5811"
+    },
+    {
+      "athlete": "Dexter Wallis",
+      "score": "13,5988"
+    },
+    {
+      "athlete": "Costanzo Aliberti",
+      "score": "13,5288"
+    },
+    {
+      "athlete": "Flaviano De Vito",
+      "score": "12,5966"
+    },
+    {
+      "athlete": "Casey Henry",
+      "score": "12,5788"
+    },
+    {
+      "athlete": "Alma Nana",
+      "score": "11,6122"
+    }
+  ]
+}

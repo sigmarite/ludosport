@@ -1,0 +1,131 @@
+{
+  "name": "POOL B1",
+  "matches": [
+    {
+      "firstAthleteName": "Fortunata Anselmo",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Dexter Wallis",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eufemia Spada",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Casey Henry",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Giovanna Belluomo",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Gerolamo Alesio",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Lino Nasato",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Flaviano De Vito",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Costanzo Aliberti",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Alma Nana",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Gerolamo Alesio",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Lino Nasato",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Dexter Wallis",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Alma Nana",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Flaviano De Vito",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Costanzo Aliberti",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Casey Henry",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Giovanna Belluomo",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fortunata Anselmo",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Eufemia Spada",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Lino Nasato",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Casey Henry",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eufemia Spada",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Dexter Wallis",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Giovanna Belluomo",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fortunata Anselmo",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Costanzo Aliberti",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Gerolamo Alesio",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Alma Nana",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Flaviano De Vito",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Casey Henry",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Costanzo Aliberti",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Dexter Wallis",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Flaviano De Vito",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Gerolamo Alesio",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Alma Nana",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fortunata Anselmo",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Lino Nasato",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eufemia Spada",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Giovanna Belluomo",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Costanzo Aliberti",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fortunata Anselmo",
+      "secondAthleteScore": "1"
+    }
+  ]
+}

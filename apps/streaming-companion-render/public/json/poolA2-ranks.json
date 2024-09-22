@@ -1,0 +1,33 @@
+{
+  "name": " POOL A2",
+  "ranks": [
+    {
+      "athlete": "Fausto Di Napoli",
+      "score": "9,6033"
+    },
+    {
+      "athlete": "Giosetta Cino",
+      "score": "9,5777"
+    },
+    {
+      "athlete": "Eraldo Righi",
+      "score": "8,5877"
+    },
+    {
+      "athlete": "Rosella Alagona",
+      "score": "14,5833"
+    },
+    {
+      "athlete": "Santina Alberghi",
+      "score": "13,5877"
+    },
+    {
+      "athlete": "Camilo Esteban",
+      "score": "12,5900"
+    },
+    {
+      "athlete": "Elpidio Ojeda",
+      "score": "12,5877"
+    }
+  ]
+}

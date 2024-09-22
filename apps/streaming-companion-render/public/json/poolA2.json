@@ -1,0 +1,275 @@
+{
+  "name": "POOL A2",
+  "matches": [
+    {
+      "firstAthleteName": "Santina Alberghi",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Elpidio Ojeda",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Orsola Bondesan",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Camilo Esteban",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eraldo Righi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Aurelio Guidi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Sabina D'Onofrio",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Rosella Alagona",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Giosetta Cino",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Fausto Di Napoli",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Aurelio Guidi",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Sabina D'Onofrio",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Elpidio Ojeda",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fausto Di Napoli",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Rosella Alagona",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Giosetta Cino",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Camilo Esteban",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Eraldo Righi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Santina Alberghi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Orsola Bondesan",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Sabina D'Onofrio",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Camilo Esteban",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Orsola Bondesan",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Elpidio Ojeda",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Eraldo Righi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Santina Alberghi",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Giosetta Cino",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Aurelio Guidi",
+      "secondAthleteScore": "0"
+    },
+    {
+      "firstAthleteName": "Fausto Di Napoli",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Rosella Alagona",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Camilo Esteban",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Giosetta Cino",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Elpidio Ojeda",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Rosella Alagona",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Aurelio Guidi",
+      "firstAthleteScore": "3",
+      "secondAthleteName": "Fausto Di Napoli",
+      "secondAthleteScore": "0"
+    },
+    {
+      "firstAthleteName": "Santina Alberghi",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Sabina D'Onofrio",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Orsola Bondesan",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Eraldo Righi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Giosetta Cino",
+      "firstAthleteScore": "0",
+      "secondAthleteName": "Santina Alberghi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eraldo Righi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Elpidio Ojeda",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Sabina D'Onofrio",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Orsola Bondesan",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fausto Di Napoli",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Camilo Esteban",
+      "secondAthleteScore": "2"
+    },
+    {
+      "firstAthleteName": "Rosella Alagona",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Aurelio Guidi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Santina Alberghi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fausto Di Napoli",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Elpidio Ojeda",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Aurelio Guidi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Camilo Esteban",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Rosella Alagona",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Orsola Bondesan",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Giosetta Cino",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eraldo Righi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Sabina D'Onofrio",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fausto Di Napoli",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Orsola Bondesan",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Sabina D'Onofrio",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Elpidio Ojeda",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Giosetta Cino",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Eraldo Righi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Rosella Alagona",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Santina Alberghi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Aurelio Guidi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Camilo Esteban",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Orsola Bondesan",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Rosella Alagona",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Camilo Esteban",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Elpidio Ojeda",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Santina Alberghi",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Aurelio Guidi",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Eraldo Righi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Fausto Di Napoli",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Sabina D'Onofrio",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Giosetta Cino",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Rosella Alagona",
+      "firstAthleteScore": "3",
+      "secondAthleteName": "Eraldo Righi",
+      "secondAthleteScore": "0"
+    },
+    {
+      "firstAthleteName": "Giosetta Cino",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Elpidio Ojeda",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Fausto Di Napoli",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Sabina D'Onofrio",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Aurelio Guidi",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Orsola Bondesan",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Camilo Esteban",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Santina Alberghi",
+      "secondAthleteScore": "1"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "name": "POOL A1",
+  "matches": [
+    {
+      "firstAthleteName": "Colombano Ventimiglia",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Arlette Guillot",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Domenico Abbandonato",
+      "firstAthleteScore": "1",
+      "secondAthleteName": "Gigi Garçon",
+      "secondAthleteScore": "0"
+    },
+    {
+      "firstAthleteName": "Giò Borgnino",
+      "firstAthleteScore": "2",
+      "secondAthleteName": "Quintino Nicotera",
+      "secondAthleteScore": "1"
+    },
+    {
+      "firstAthleteName": "Annachiara Coiro",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Luigina Anselmetti",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Mirko Notaro",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Bianca Basso",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Quintino Nicotera",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Annachiara Coiro",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Arlette Guillot",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Bianca Basso",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Luigina Anselmetti",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Mirko Notaro",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Gigi Garçon",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Giò Borgnino",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Colombano Ventimiglia",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Domenico Abbandonato",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Annachiara Coiro",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Gigi Garçon",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Domenico Abbandonato",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Arlette Guillot",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Giò Borgnino",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Colombano Ventimiglia",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Mirko Notaro",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Quintino Nicotera",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Bianca Basso",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Luigina Anselmetti",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Gigi Garçon",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Mirko Notaro",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Arlette Guillot",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Luigina Anselmetti",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Quintino Nicotera",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Bianca Basso",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Colombano Ventimiglia",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Annachiara Coiro",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Domenico Abbandonato",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Giò Borgnino",
+      "secondAthleteScore": " "
+    },
+    {
+      "firstAthleteName": "Mirko Notaro",
+      "firstAthleteScore": " ",
+      "secondAthleteName": "Colombano Ventimiglia",
+      "secondAthleteScore": " "
+    }
+  ]
+}
