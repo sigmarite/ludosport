@@ -19,7 +19,7 @@ export class PoolTablesWorksheet {
         ranks.push({athlete, score});
       }
     }
-    ranks.sort((rank1, rank2) => rank2.score.localeCompare(rank1.score));
+    ranks.sort((rank1, rank2) => (+rank2.score) - (+rank1.score));
 
     return {
       name: poolName,

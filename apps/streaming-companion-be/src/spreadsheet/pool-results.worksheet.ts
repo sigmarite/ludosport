@@ -9,31 +9,19 @@ export class PoolResultsWorksheet {
     const poolName = this.getPoolName(startingColumnIndex);
     const matches: Match[] = [];
 
-    // todo find a better way to get the couples and skip the sj switch
-    for (let row = 1; row < 30; row = row + 3) {
+    for (let row = 1; row < this.worksheet.rowCount - 1; row++) {
       let firstAthleteName = this.worksheet.getCell(row, startingColumnIndex).formattedValue;
       let firstAthleteScore = this.worksheet.getCell(row, startingColumnIndex + 1).formattedValue ?? " ";
       let secondAthleteName = this.worksheet.getCell(row + 1, startingColumnIndex).formattedValue;
       let secondAthleteScore = this.worksheet.getCell(row + 1, startingColumnIndex + 1).formattedValue ?? " ";
-      matches.push({
-        firstAthleteName,
-        firstAthleteScore,
-        secondAthleteName,
-        secondAthleteScore
-      })
-    }
-
-    for (let row = 32; row < 64; row = row + 3) {
-      let firstAthleteName = this.worksheet.getCell(row, startingColumnIndex).formattedValue;
-      let firstAthleteScore = this.worksheet.getCell(row, startingColumnIndex + 1).formattedValue ?? " ";
-      let secondAthleteName = this.worksheet.getCell(row + 1, startingColumnIndex).formattedValue;
-      let secondAthleteScore = this.worksheet.getCell(row + 1, startingColumnIndex + 1).formattedValue ?? " ";
-      matches.push({
-        firstAthleteName,
-        firstAthleteScore,
-        secondAthleteName,
-        secondAthleteScore
-      })
+      if (!!firstAthleteName && firstAthleteName !== 'SWITCH SJ' && !!secondAthleteName && secondAthleteName !== 'SWITCH SJ') {
+        matches.push({
+          firstAthleteName,
+          firstAthleteScore,
+          secondAthleteName,
+          secondAthleteScore
+        })
+      }
     }
 
     return {
