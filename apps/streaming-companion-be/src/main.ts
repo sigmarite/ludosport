@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 app.get('/matches', (req, res) => {
   const name: string = req.query.name as string;
-  const columnIndex = schemas.pools.find((pool) => pool.filename === name).columnIndex;
+  const columnIndex = schemas.pools.find((pool) => pool.name === name).columnIndex;
   IncomSpreadsheet
     .loadFrom(schemas.spreadsheetId)
     .then((doc) => doc.getPoolResults())
@@ -22,8 +22,8 @@ app.get('/matches', (req, res) => {
 
 app.get('/ranks', (req, res) => {
   const name: string = req.query.name as string;
-  const columnIndex = schemas.pools.find((pool) => pool.filename === name).columnIndex;
-  const rowIndex = schemas.poolRanks.find((pool) => pool.filename === name).rowIndex;
+  const columnIndex = schemas.pools.find((pool) => pool.name === name).columnIndex;
+  const rowIndex = schemas.poolRanks.find((pool) => pool.name === name).rowIndex;
   IncomSpreadsheet
     .loadFrom(schemas.spreadsheetId)
     .then((doc) => doc.getPoolTables())
